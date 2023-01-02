@@ -1,2 +1,3 @@
 # DSA-python
-Learn Datastructures and Algorithm in 45 days.
+Learn Data Structures and Algorithm in 45 days.
+Solve SDE Sheet
