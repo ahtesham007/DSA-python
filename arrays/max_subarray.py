@@ -1,4 +1,3 @@
-
 def maxSubarray(nums):
     curr_sum = 0
     max_sum = nums[0]
@@ -13,6 +12,7 @@ def maxSubarray(nums):
             curr_sum = 0
     
     return max_sum
+
 
 def printMaxSubarray(nums):
     curr_sum = 0
@@ -34,4 +34,4 @@ def printMaxSubarray(nums):
     
     return max_sum,nums[s:e+1]
 
-print(printMaxSubarray([5,4,-1,7,8]))
+print(printMaxSubarray([5,4,-1]))
