@@ -12,7 +12,7 @@ def countPathRecursive(i, j, m, n):
 # Dynamic Programming
 def uniquePathsdp(m: int, n: int) -> int:
     dp = [[-1]*n for _ in range(m)]
-    return countPath(0, 0, m, n, dp)
+    return countPathdp(0, 0, m, n, dp)
 
 def countPathdp(i, j, m, n, dp):
     if i == m-1 and j == n-1: return 1
