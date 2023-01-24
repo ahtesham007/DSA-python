@@ -10,12 +10,15 @@ class Solution:
 
         cur = head
         count = 1
+        # find len of list
         while cur.next:
             cur = cur.next
             count += 1
 
+        # create loop
         cur.next = head
 
+        # calculate end step to move
         k = count - (k % count)
 
         while k:
