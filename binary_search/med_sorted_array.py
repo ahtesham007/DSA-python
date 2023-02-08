@@ -24,7 +24,7 @@ def findMed(nums1, nums2):
         elif l1 > r2:
             hi = cut1 - 1
         else:
-            lo = cut1 + 1
+            l = cut1 + 1
     
     return 0
 
