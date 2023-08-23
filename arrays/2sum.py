@@ -9,6 +9,6 @@ class Solution:
                 hm[num] = i
         
         return []
-
+# Two Sum
 obj = Solution()
 print(obj.twoSum([3,3], 6))
