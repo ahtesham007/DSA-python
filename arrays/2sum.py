@@ -11,4 +11,4 @@ class Solution:
         return []
 # Two Sum
 obj = Solution()
-print(f"Two Sum : {obj.twoSum([3,3], 6)})
+print(obj.twoSum([3,3], 6))
